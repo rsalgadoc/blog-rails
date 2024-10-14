@@ -1,5 +1,7 @@
 # README
 
+Example created following Getting Started with Rails — Ruby on Rails Guides.pdf
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
