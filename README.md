@@ -9,7 +9,11 @@ Things you may want to cover:
 
 * Ruby version
 
+ruby 3.3.5 
+
 * System dependencies
+
+Rails 7.2.1
 
 * Configuration
 
@@ -23,4 +27,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Fix guide eror:
+1 Rails `link_to` with data-turbo doesnt get TURBO_STREAM request format
+Turbo needs node or importmap-rails set up
+
+bin/rails importmap:install
+
+Now turbo can be installed
+
+bin/rails turbo:install
